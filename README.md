@@ -55,4 +55,4 @@ The solution leverages Docker images for both the server and AI model, which are
 1. **main2.py**: Runs the core AI model, generating CPU usage predictions and triggering scaling operations in real-time.
 2. **Graph.py**: Generates graphical representations of predicted CPU usage, helping visualize resource demand trends.
 3. **server.py**: A simple cloud server service that simulates client requests (customizable as per specific client requirements).
-4. **automateclient.py**: Simulates real-time client requests to the server for testing purposes (optional).
+4. **automateclient.py**: Simulates real-time client requests to the server for testing purposes.
